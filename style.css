@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(181, 121, 237);
+}
+
+.formulario {
+    background-color: white;
+    justify-content: center;
+    display: flex;
+    height: 90vh;
+}
+
+label{
+    width: 50%;
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+}
+
+div, select{
+    display: inline-block;
+}

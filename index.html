@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1><center>Survey Form</center></h1>
+    <section class="formulario">
+    <form> 
+        <ul style="list-style:none;">
+            <li>
+                <label class="name">Name:</label>
+                <input id="name" type="text" placeholder="Enter your name"> <br> <br>
+            </li>
+            <li>
+                <label class="email">Email:</label>
+                <input id="Email" type="email" placeholder="Enter your Email"> <br> <br>
+            <li>
+                <label class="Age">Age:</label>
+                <input id="name" type="number" placeholder="Age" min="0"><br> <br>  
+            </li>
+            <li>
+                <label for="">
+                    Which opition best describes your current role?
+                </label>
+                <select name="pergunta">
+                <option value="Student"> Student  
+                </Select><br><br>
+            </li>
+            <li>
+                <label for="">
+                    How likely is that you would recimmend freeCodeCamp to a friend?
+                </label>
+                <div class="separar">
+                <input type="radio" > Definitely <br>
+                <input type="radio" > Maybe <br>
+                <input type="radio"> Not sure <br>  <br>
+                </div>
+            </li>
+            <li>
+                <label for="">
+                    What do you like most in FCC:
+                </label>
+                <select name="pergunta">
+                    <option value=" Select an option "> Select an option
+                </select><br><br>
+            </li>
+            <li>
+                <label class="eisso">Things that should be improved in the future (Check all apply):</label>
+                <div class="separar">
+                    <input type="checkbox" > Front-end Projects <br>
+                    <input type="checkbox" > Back-end Projects <br>
+                    <input type="checkbox" > Data Visualization <br> <br>
+                </div>
+            </li>
+        </ul>
+    </form>
+</section>
+</body>
+</html>
